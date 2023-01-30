@@ -18,8 +18,7 @@ if ( isset( $_GET['billplz'] ) ) {
         
 
         // update order status
-        $orders = new Orders();
-        $orders->updateOrder(
+        Orders::updateOrder(
             $_GET['billplz']['id'], //billplz id as transaction_id
             $status
         );

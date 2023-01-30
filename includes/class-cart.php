@@ -1,6 +1,6 @@
 <?php
 
-class Cart{
+class Cart {
     public static function listAllProductsinCart()
     {
         $list = [];
